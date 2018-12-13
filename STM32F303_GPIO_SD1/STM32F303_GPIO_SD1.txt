@@ -1,0 +1,66 @@
+Configuration	STM32F303_GPIO_SD1
+STM32CubeMX 	4.17.0
+Date	11/19/2016
+MCU	STM32F303K8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN1 Single-ended	ADC1_IN1	PA0
+I2C1	I2C	I2C1_SCL	PB6
+I2C1	I2C	I2C1_SDA	PB7
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PF0 / OSC_IN*	RCC_OSC_IN	MCO
+6	PA0	ADC1_IN1	
+8	PA2*	USART2_TX	VCP_TX
+11	PA5	SPI1_SCK	
+12	PA6	SPI1_MISO	
+13	PA7	SPI1_MOSI	
+19	PA9	USART1_TX	
+20	PA10	USART1_RX	
+21	PA11	GPIO_Output	SCS
+23	PA13*	SYS_JTMS-SWDIO	SWDIO
+24	PA14*	SYS_JTCK-SWCLK	SWCLK
+25	PA15*	USART2_RX	VCP_RX
+26	PB3	GPIO_Input	SMISO
+27	PB4	GPIO_Output	SMOSI
+28	PB5	GPIO_Output	SCLK
+29	PB6	I2C1_SCL	
+30	PB7	I2C1_SDA	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : STM32F303_GPIO_SD1
+Project Folder : C:\Users\stern\workspace\STM32F303_GPIO_SD1
+Toolchain / IDE : SW4STM32
+Firmware Package Name and Version : STM32Cube FW_F3 V1.6.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : Yes
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
