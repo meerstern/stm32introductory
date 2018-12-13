@@ -1,0 +1,50 @@
+Configuration	STM32F303-UartRX
+STM32CubeMX 	4.17.0
+Date	01/05/2017
+MCU	STM32F303K8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PF0 / OSC_IN*	RCC_OSC_IN	MCO
+8	PA2*	USART2_TX	VCP_TX
+19	PA9	USART1_TX	
+20	PA10	USART1_RX	
+23	PA13*	SYS_JTMS-SWDIO	SWDIO
+24	PA14*	SYS_JTCK-SWCLK	SWCLK
+25	PA15*	USART2_RX	VCP_RX
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : STM32F303-UartRX
+Project Folder : C:\Users\stern\workspace\STM32F303-UartRX
+Toolchain / IDE : SW4STM32
+Firmware Package Name and Version : STM32Cube FW_F3 V1.6.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : Yes
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
